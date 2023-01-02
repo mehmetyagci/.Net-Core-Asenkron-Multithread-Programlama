@@ -19,10 +19,11 @@ namespace TaskFormApp {
 
         private async void BtnReadFile_Click(object sender, EventArgs e) {
             string data = string.Empty;
-            Task<string> okuma = ReadFileAsync();
+            //Task<string> okuma = ReadFileAsync();
+            Task<string> okuma = ReadFileAsync2();
 
             // Baþka bir iþlem 
-            richTextBox2.Text = new HttpClient().GetStringAsync("https://www.google.com.tr/").Result;
+            richTextBox2.Text = await new HttpClient().GetStringAsync("https://www.google.com.tr/");
 
             data = await okuma; // sonucu bekle.
             richTextBox1.Text = data;
@@ -54,5 +55,11 @@ namespace TaskFormApp {
                 return data;
             }
         }
+
+        private Task<string> ReadFileAsync2() {
+            StreamReader s = new StreamReader("dosya.txt");
+            return s.ReadToEndAsync();
+        }
+
     } // end of class
 } // end of namespace

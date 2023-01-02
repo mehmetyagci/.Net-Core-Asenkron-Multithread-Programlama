@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskExamples", "TaskExample
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskFormApp", "TaskFormApp\TaskFormApp.csproj", "{57C01F43-1974-4B65-928B-B128984308F4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskWebApp.API", "TaskWebApp.API\TaskWebApp.API.csproj", "{BFB97B62-2585-47E7-B894-D1F95422A9D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{57C01F43-1974-4B65-928B-B128984308F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57C01F43-1974-4B65-928B-B128984308F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57C01F43-1974-4B65-928B-B128984308F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFB97B62-2585-47E7-B894-D1F95422A9D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFB97B62-2585-47E7-B894-D1F95422A9D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFB97B62-2585-47E7-B894-D1F95422A9D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFB97B62-2585-47E7-B894-D1F95422A9D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
