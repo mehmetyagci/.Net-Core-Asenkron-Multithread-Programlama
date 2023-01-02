@@ -1,4 +1,6 @@
 using System.Text;
+using System.Net.Http;
+using System.Threading;
 
 namespace TaskFormApp {
     public partial class Form1 : Form {
@@ -6,6 +8,8 @@ namespace TaskFormApp {
 
         public Form1() {
             InitializeComponent();
+            System.Text.EncodingProvider provider = System.Text.CodePagesEncodingProvider.Instance;
+            Encoding.RegisterProvider(provider);
         }
 
         //private void btnReadFile_Click(object sender, EventArgs e) {
@@ -13,8 +17,14 @@ namespace TaskFormApp {
         //    richTextBox1.Text = data;
         //}
 
-        private async void btnReadFile_Click(object sender, EventArgs e) {
-            string data = await ReadFileAsync();
+        private async void BtnReadFile_Click(object sender, EventArgs e) {
+            string data = string.Empty;
+            Task<string> okuma = ReadFileAsync();
+
+            // Baþka bir iþlem 
+            richTextBox2.Text = new HttpClient().GetStringAsync("https://www.google.com.tr/").Result;
+
+            data = await okuma; // sonucu bekle.
             richTextBox1.Text = data;
         }
 
