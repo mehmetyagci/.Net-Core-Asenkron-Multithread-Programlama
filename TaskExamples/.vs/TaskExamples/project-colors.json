@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "e23be93d-c88f-4602-8534-3c02881d83c6": {
+      "ProjectGuid": "e23be93d-c88f-4602-8534-3c02881d83c6",
+      "DisplayName": "TaskExamples",
+      "ColorIndex": 0
+    },
+    "57c01f43-1974-4b65-928b-b128984308f4": {
+      "ProjectGuid": "57c01f43-1974-4b65-928b-b128984308f4",
+      "DisplayName": "TaskFormApp",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "bfb97b62-2585-47e7-b894-d1f95422a9d1": {
+      "ProjectGuid": "bfb97b62-2585-47e7-b894-d1f95422a9d1",
+      "DisplayName": "TaskWebApp.API",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}
