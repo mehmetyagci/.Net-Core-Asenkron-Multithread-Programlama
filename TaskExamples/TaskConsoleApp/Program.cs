@@ -1,47 +1,52 @@
-﻿namespace TaskConsoleApp {
+﻿using System.Diagnostics;
+
+namespace TaskConsoleApp {
     internal class Program {
-        //private async static Task Main(string[] args) {
-
-        //    Console.WriteLine("Hello World");
-
-        //    var mytask = new HttpClient().GetStringAsync("https://www.google.com").ContinueWith
-        //        (data => {
-        //            Console.WriteLine($"Uzunluk: {data.Result.Length}");
-        //        });
-
-        //    Console.WriteLine("Arada yapılacak işler");
-
-        //    await mytask;
-        //}
-
-
-        //private async static Task Main(string[] args) {
-
-        //    Console.WriteLine("Hello World");
-
-        //    var mytask = new HttpClient().GetStringAsync("https://www.google.com");
-
-        //    Console.WriteLine("Arada yapılacak işler");
-
-        //    var data = await mytask;
-        //    Console.WriteLine($"Uzunluk: {data.Length}");
-        //}
-        public static void calis(Task<string> data) {
-            // 100 satırlık bir kod 
-            Console.WriteLine($"Uzunluk: {data.Result.Length}");
-        }
-
         private async static Task Main(string[] args) {
 
-            Console.WriteLine("Hello World");
+            var stopwatch = new Stopwatch();
 
-            var mytask = new HttpClient().GetStringAsync("https://www.google.com").ContinueWith(data);
+            Console.WriteLine($"Main Thread:{Thread.CurrentThread.ManagedThreadId}");
+            List<string> urlsList = new List<string>() {
+                "https://www.google.com",
+                "https://www.amazon.com/",
+                "https://www.yahoo.com/",
+                "https://www.mynet.com/",
+                "https://www.microsoft.com",
+            };
 
-            Console.WriteLine("Arada yapılacak işler");
+            List<Task<Content>> taskList = new List<Task<Content>>();
+            urlsList.ToList().ForEach(url => {
+                taskList.Add(GetContentAsync(url));
+            });
 
-            await mytask;
+            stopwatch.Start();
+
+            var contents = await Task.WhenAll(taskList.ToArray());
+            contents.ToList().ForEach(task => {
+                Console.WriteLine(task.Site + task.Length);
+            });
+
+            stopwatch.Stop();
+            Console.WriteLine($"Elapsed time: {stopwatch.ElapsedMilliseconds} ms");
+
         }
 
+        public static async Task<Content> GetContentAsync(string url) {
+            Content content = new Content();
+            var data = await new HttpClient().GetStringAsync(url);
 
+            await Task.Delay(5000);
+
+            content.Site = url;
+            content.Length = data.Length;
+            Console.WriteLine($"GetContentAsync thread: {Thread.CurrentThread.ManagedThreadId}");
+            return content;
+        }
+
+        public class Content {
+            public string Site { get; set; }
+            public int Length { get; set; }
+        }
     } // end of class
 } // end of namespace

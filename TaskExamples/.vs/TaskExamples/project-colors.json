@@ -20,7 +20,17 @@
       "ProjectGuid": "bfb97b62-2585-47e7-b894-d1f95422a9d1",
       "DisplayName": "TaskWebApp.API",
       "ColorIndex": 2
+    },
+    "a8122d44-ebb6-426d-a004-33761fc38091": {
+      "ProjectGuid": "a8122d44-ebb6-426d-a004-33761fc38091",
+      "DisplayName": "TaskConsoleApp",
+      "ColorIndex": 3
+    },
+    "67f37fef-9f8d-4d3f-915b-d5cccae087d7": {
+      "ProjectGuid": "67f37fef-9f8d-4d3f-915b-d5cccae087d7",
+      "DisplayName": "TaskThreadApp",
+      "ColorIndex": 4
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 5
 }
