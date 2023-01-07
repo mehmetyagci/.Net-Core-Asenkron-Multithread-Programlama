@@ -4,7 +4,6 @@ C:\Users\MehmetYagci\source\repos\.Net-Core-Asenkron-Multithread-Programlama\Tas
 C:\Users\MehmetYagci\source\repos\.Net-Core-Asenkron-Multithread-Programlama\TaskExamples\TaskExamples\bin\Debug\net6.0\TaskExamples.dll
 C:\Users\MehmetYagci\source\repos\.Net-Core-Asenkron-Multithread-Programlama\TaskExamples\TaskExamples\bin\Debug\net6.0\ref\TaskExamples.dll
 C:\Users\MehmetYagci\source\repos\.Net-Core-Asenkron-Multithread-Programlama\TaskExamples\TaskExamples\bin\Debug\net6.0\TaskExamples.pdb
-C:\Users\MehmetYagci\source\repos\.Net-Core-Asenkron-Multithread-Programlama\TaskExamples\TaskExamples\obj\Debug\net6.0\TaskExamples.csproj.AssemblyReference.cache
 C:\Users\MehmetYagci\source\repos\.Net-Core-Asenkron-Multithread-Programlama\TaskExamples\TaskExamples\obj\Debug\net6.0\TaskExamples.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\MehmetYagci\source\repos\.Net-Core-Asenkron-Multithread-Programlama\TaskExamples\TaskExamples\obj\Debug\net6.0\TaskExamples.AssemblyInfoInputs.cache
 C:\Users\MehmetYagci\source\repos\.Net-Core-Asenkron-Multithread-Programlama\TaskExamples\TaskExamples\obj\Debug\net6.0\TaskExamples.AssemblyInfo.cs
@@ -13,3 +12,4 @@ C:\Users\MehmetYagci\source\repos\.Net-Core-Asenkron-Multithread-Programlama\Tas
 C:\Users\MehmetYagci\source\repos\.Net-Core-Asenkron-Multithread-Programlama\TaskExamples\TaskExamples\obj\Debug\net6.0\ref\TaskExamples.dll
 C:\Users\MehmetYagci\source\repos\.Net-Core-Asenkron-Multithread-Programlama\TaskExamples\TaskExamples\obj\Debug\net6.0\TaskExamples.pdb
 C:\Users\MehmetYagci\source\repos\.Net-Core-Asenkron-Multithread-Programlama\TaskExamples\TaskExamples\obj\Debug\net6.0\TaskExamples.genruntimeconfig.cache
+C:\Users\MehmetYagci\source\repos\.Net-Core-Asenkron-Multithread-Programlama\TaskExamples\TaskExamples\obj\Debug\net6.0\TaskExamples.csproj.AssemblyReference.cache

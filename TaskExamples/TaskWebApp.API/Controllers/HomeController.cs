@@ -4,17 +4,44 @@ using System.Net.Http.Headers;
 using System.Text;
 
 namespace TaskWebApp.API.Controllers {
+
+
     [Route("api/[controller]")]
     [ApiController]
     public class HomeController : ControllerBase {
 
+        private readonly ILogger<HomeController> _logger;
+
+        public HomeController(ILogger<HomeController> logger) {
+            _logger = logger;
+        }
+
         [HttpGet("getcontent")]
-        public IActionResult GetContent() {
-            Thread.Sleep(10000); // 10 sn. bekle
-            // Başarısız Yöntemdi, Encoding.RegisterProvider ile çalışıyor. 
-            Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
-            var data = new HttpClient().GetStringAsync("https://www.google.com.tr/").Result;
-            return Ok(data);
+        public async Task<IActionResult> GetContent(CancellationToken ct) {
+
+
+            try {
+
+                _logger.LogInformation("İstek başladı");
+
+                await Task.Delay(5000, ct); // 10 sn. bekle
+
+                // Manuel Throw fırlatma
+                ct.ThrowIfCancellationRequested();
+
+                // Başarısız Yöntemdi, Encoding.RegisterProvider ile çalışıyor. 
+                Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
+                var data = new HttpClient().GetStringAsync("https://www.google.com.tr/").Result;
+
+                _logger.LogInformation("İstek bitti");
+                return Ok(data);
+            }
+            catch (Exception ex) {
+                _logger.LogInformation("İstek iptal edildi.Exception details are:" + ex.ToString());
+                return BadRequest();
+            }
+
+
 
 
             // Başarılı Yöntem 1.
@@ -50,5 +77,26 @@ namespace TaskWebApp.API.Controllers {
 
         }
 
-    }  // end of class
+        [HttpGet("getcontentasync2")]
+        public async Task<IActionResult> GetContentAsync2(CancellationToken ct) {
+            try {
+
+                _logger.LogInformation("İstek başladı");
+
+                Enumerable.Range(1, 10).ToList().ForEach(x => {
+                    Thread.Sleep(1000);
+
+                    ct.ThrowIfCancellationRequested();
+                });
+
+                _logger.LogInformation("İstek bitti");
+                return Ok("işler bitti");
+            }
+            catch (Exception ex) {
+                _logger.LogInformation("İstek iptal edildi.Exception details are:" + ex.ToString());
+                return BadRequest();
+            }
+        }
+
+}  // end of class
 } // end of namespace

@@ -10,7 +10,6 @@ C:\Users\MehmetYagci\source\repos\.Net-Core-Asenkron-Multithread-Programlama\Tas
 C:\Users\MehmetYagci\source\repos\.Net-Core-Asenkron-Multithread-Programlama\TaskExamples\TaskWebApp.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\MehmetYagci\source\repos\.Net-Core-Asenkron-Multithread-Programlama\TaskExamples\TaskWebApp.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\MehmetYagci\source\repos\.Net-Core-Asenkron-Multithread-Programlama\TaskExamples\TaskWebApp.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\MehmetYagci\source\repos\.Net-Core-Asenkron-Multithread-Programlama\TaskExamples\TaskWebApp.API\obj\Debug\net6.0\TaskWebApp.API.csproj.AssemblyReference.cache
 C:\Users\MehmetYagci\source\repos\.Net-Core-Asenkron-Multithread-Programlama\TaskExamples\TaskWebApp.API\obj\Debug\net6.0\TaskWebApp.API.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\MehmetYagci\source\repos\.Net-Core-Asenkron-Multithread-Programlama\TaskExamples\TaskWebApp.API\obj\Debug\net6.0\TaskWebApp.API.AssemblyInfoInputs.cache
 C:\Users\MehmetYagci\source\repos\.Net-Core-Asenkron-Multithread-Programlama\TaskExamples\TaskWebApp.API\obj\Debug\net6.0\TaskWebApp.API.AssemblyInfo.cs
@@ -27,3 +26,4 @@ C:\Users\MehmetYagci\source\repos\.Net-Core-Asenkron-Multithread-Programlama\Tas
 C:\Users\MehmetYagci\source\repos\.Net-Core-Asenkron-Multithread-Programlama\TaskExamples\TaskWebApp.API\obj\Debug\net6.0\TaskWebApp.API.genruntimeconfig.cache
 C:\Users\MehmetYagci\source\repos\.Net-Core-Asenkron-Multithread-Programlama\TaskExamples\TaskWebApp.API\bin\Debug\net6.0\System.Text.Encoding.CodePages.dll
 C:\Users\MehmetYagci\source\repos\.Net-Core-Asenkron-Multithread-Programlama\TaskExamples\TaskWebApp.API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Text.Encoding.CodePages.dll
+C:\Users\MehmetYagci\source\repos\.Net-Core-Asenkron-Multithread-Programlama\TaskExamples\TaskWebApp.API\obj\Debug\net6.0\TaskWebApp.API.csproj.AssemblyReference.cache

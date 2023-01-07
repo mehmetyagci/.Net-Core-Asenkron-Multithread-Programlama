@@ -4,7 +4,6 @@ C:\Users\MehmetYagci\source\repos\.Net-Core-Asenkron-Multithread-Programlama\Tas
 C:\Users\MehmetYagci\source\repos\.Net-Core-Asenkron-Multithread-Programlama\TaskExamples\TaskFormApp\bin\Debug\net6.0-windows\TaskFormApp.dll
 C:\Users\MehmetYagci\source\repos\.Net-Core-Asenkron-Multithread-Programlama\TaskExamples\TaskFormApp\bin\Debug\net6.0-windows\ref\TaskFormApp.dll
 C:\Users\MehmetYagci\source\repos\.Net-Core-Asenkron-Multithread-Programlama\TaskExamples\TaskFormApp\bin\Debug\net6.0-windows\TaskFormApp.pdb
-C:\Users\MehmetYagci\source\repos\.Net-Core-Asenkron-Multithread-Programlama\TaskExamples\TaskFormApp\obj\Debug\net6.0-windows\TaskFormApp.csproj.AssemblyReference.cache
 C:\Users\MehmetYagci\source\repos\.Net-Core-Asenkron-Multithread-Programlama\TaskExamples\TaskFormApp\obj\Debug\net6.0-windows\TaskFormApp.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\MehmetYagci\source\repos\.Net-Core-Asenkron-Multithread-Programlama\TaskExamples\TaskFormApp\obj\Debug\net6.0-windows\TaskFormApp.AssemblyInfoInputs.cache
 C:\Users\MehmetYagci\source\repos\.Net-Core-Asenkron-Multithread-Programlama\TaskExamples\TaskFormApp\obj\Debug\net6.0-windows\TaskFormApp.AssemblyInfo.cs
@@ -16,3 +15,4 @@ C:\Users\MehmetYagci\source\repos\.Net-Core-Asenkron-Multithread-Programlama\Tas
 C:\Users\MehmetYagci\source\repos\.Net-Core-Asenkron-Multithread-Programlama\TaskExamples\TaskFormApp\bin\Debug\net6.0-windows\dosya.txt
 C:\Users\MehmetYagci\source\repos\.Net-Core-Asenkron-Multithread-Programlama\TaskExamples\TaskFormApp\obj\Debug\net6.0-windows\TaskFormApp.Form1.resources
 C:\Users\MehmetYagci\source\repos\.Net-Core-Asenkron-Multithread-Programlama\TaskExamples\TaskFormApp\obj\Debug\net6.0-windows\TaskFormApp.csproj.GenerateResource.cache
+C:\Users\MehmetYagci\source\repos\.Net-Core-Asenkron-Multithread-Programlama\TaskExamples\TaskFormApp\obj\Debug\net6.0-windows\TaskFormApp.csproj.AssemblyReference.cache
