@@ -9,9 +9,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskFormApp", "TaskFormApp\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskWebApp.API", "TaskWebApp.API\TaskWebApp.API.csproj", "{BFB97B62-2585-47E7-B894-D1F95422A9D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskConsoleApp", "TaskConsoleApp\TaskConsoleApp.csproj", "{A8122D44-EBB6-426D-A004-33761FC38091}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskConsoleApp", "TaskConsoleApp\TaskConsoleApp.csproj", "{A8122D44-EBB6-426D-A004-33761FC38091}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskThreadApp", "TaskThreadApp\TaskThreadApp.csproj", "{67F37FEF-9F8D-4D3F-915B-D5CCCAE087D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskThreadApp", "TaskThreadApp\TaskThreadApp.csproj", "{67F37FEF-9F8D-4D3F-915B-D5CCCAE087D7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskStartNew", "TaskStartNew\TaskStartNew.csproj", "{06E8732E-6DCB-4B7F-996E-59F3A5AC4BB2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskFromResult", "TaskFromResult\TaskFromResult.csproj", "{8710FD50-DE9C-45ED-BE7B-712C3119BE23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskCancelationFormApp", "TaskCancelationFormApp\TaskCancelationFormApp.csproj", "{DE1ED515-1F92-4CB5-A716-363B4E15EA9E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +45,18 @@ Global
 		{67F37FEF-9F8D-4D3F-915B-D5CCCAE087D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67F37FEF-9F8D-4D3F-915B-D5CCCAE087D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67F37FEF-9F8D-4D3F-915B-D5CCCAE087D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06E8732E-6DCB-4B7F-996E-59F3A5AC4BB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06E8732E-6DCB-4B7F-996E-59F3A5AC4BB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06E8732E-6DCB-4B7F-996E-59F3A5AC4BB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06E8732E-6DCB-4B7F-996E-59F3A5AC4BB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8710FD50-DE9C-45ED-BE7B-712C3119BE23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8710FD50-DE9C-45ED-BE7B-712C3119BE23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8710FD50-DE9C-45ED-BE7B-712C3119BE23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8710FD50-DE9C-45ED-BE7B-712C3119BE23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE1ED515-1F92-4CB5-A716-363B4E15EA9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE1ED515-1F92-4CB5-A716-363B4E15EA9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE1ED515-1F92-4CB5-A716-363B4E15EA9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE1ED515-1F92-4CB5-A716-363B4E15EA9E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

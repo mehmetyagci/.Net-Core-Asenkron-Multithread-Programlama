@@ -10,6 +10,7 @@ namespace TaskWebApp.API.Controllers {
 
         [HttpGet("getcontent")]
         public IActionResult GetContent() {
+            Thread.Sleep(10000); // 10 sn. bekle
             // Başarısız Yöntemdi, Encoding.RegisterProvider ile çalışıyor. 
             Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
             var data = new HttpClient().GetStringAsync("https://www.google.com.tr/").Result;

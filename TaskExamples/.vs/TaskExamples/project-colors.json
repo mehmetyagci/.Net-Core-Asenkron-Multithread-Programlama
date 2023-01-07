@@ -30,7 +30,17 @@
       "ProjectGuid": "67f37fef-9f8d-4d3f-915b-d5cccae087d7",
       "DisplayName": "TaskThreadApp",
       "ColorIndex": 4
+    },
+    "06e8732e-6dcb-4b7f-996e-59f3a5ac4bb2": {
+      "ProjectGuid": "06e8732e-6dcb-4b7f-996e-59f3a5ac4bb2",
+      "DisplayName": "TaskStartNew",
+      "ColorIndex": 5
+    },
+    "8710fd50-de9c-45ed-be7b-712c3119be23": {
+      "ProjectGuid": "8710fd50-de9c-45ed-be7b-712c3119be23",
+      "DisplayName": "TaskFromResult",
+      "ColorIndex": 6
     }
   },
-  "NextColorIndex": 5
+  "NextColorIndex": 7
 }
