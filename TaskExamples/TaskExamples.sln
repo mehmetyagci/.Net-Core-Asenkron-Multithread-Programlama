@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskCancelationFormApp", "T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskInstanceResultApp", "TaskInstanceResultApp\TaskInstanceResultApp.csproj", "{56773C60-0C1A-45DE-9AAC-298E2545D60E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskInstanceResultApp2", "TaskInstanceResultApp2\TaskInstanceResultApp2.csproj", "{F56F13B9-8EC3-4E62-B369-8C7DCA638386}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{56773C60-0C1A-45DE-9AAC-298E2545D60E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56773C60-0C1A-45DE-9AAC-298E2545D60E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56773C60-0C1A-45DE-9AAC-298E2545D60E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F56F13B9-8EC3-4E62-B369-8C7DCA638386}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F56F13B9-8EC3-4E62-B369-8C7DCA638386}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F56F13B9-8EC3-4E62-B369-8C7DCA638386}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F56F13B9-8EC3-4E62-B369-8C7DCA638386}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
