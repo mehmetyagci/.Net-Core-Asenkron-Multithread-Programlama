@@ -40,7 +40,22 @@
       "ProjectGuid": "8710fd50-de9c-45ed-be7b-712c3119be23",
       "DisplayName": "TaskFromResult",
       "ColorIndex": 6
+    },
+    "de1ed515-1f92-4cb5-a716-363b4e15ea9e": {
+      "ProjectGuid": "de1ed515-1f92-4cb5-a716-363b4e15ea9e",
+      "DisplayName": "TaskCancelationFormApp",
+      "ColorIndex": 7
+    },
+    "56773c60-0c1a-45de-9aac-298e2545d60e": {
+      "ProjectGuid": "56773c60-0c1a-45de-9aac-298e2545d60e",
+      "DisplayName": "TaskInstanceResultApp",
+      "ColorIndex": 8
+    },
+    "f56f13b9-8ec3-4e62-b369-8c7dca638386": {
+      "ProjectGuid": "f56f13b9-8ec3-4e62-b369-8c7dca638386",
+      "DisplayName": "TaskInstanceResultApp2",
+      "ColorIndex": 9
     }
   },
-  "NextColorIndex": 7
+  "NextColorIndex": 10
 }
