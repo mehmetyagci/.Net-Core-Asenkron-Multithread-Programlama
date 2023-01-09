@@ -55,7 +55,47 @@
       "ProjectGuid": "f56f13b9-8ec3-4e62-b369-8c7dca638386",
       "DisplayName": "TaskInstanceResultApp2",
       "ColorIndex": 9
+    },
+    "5385d619-808c-4161-9a62-38ae7017018c": {
+      "ProjectGuid": "5385d619-808c-4161-9a62-38ae7017018c",
+      "DisplayName": "1_19_TaskInstanceApp",
+      "ColorIndex": 10
+    },
+    "243421b3-e5b7-4d56-a5a3-580c41bde296": {
+      "ProjectGuid": "243421b3-e5b7-4d56-a5a3-580c41bde296",
+      "DisplayName": "1_20_ValueTask",
+      "ColorIndex": 11
+    },
+    "475fb2cc-aac4-40db-9a31-20247ed92ce3": {
+      "ProjectGuid": "475fb2cc-aac4-40db-9a31-20247ed92ce3",
+      "DisplayName": "1_21_TaskAkis",
+      "ColorIndex": 12
+    },
+    "66f43de5-1189-4784-b789-c4abb50574c1": {
+      "ProjectGuid": "66f43de5-1189-4784-b789-c4abb50574c1",
+      "DisplayName": "3_24_ParallelForEach",
+      "ColorIndex": 13
+    },
+    "001cbfd8-6519-47ac-9bfc-d7a54f038d20": {
+      "ProjectGuid": "001cbfd8-6519-47ac-9bfc-d7a54f038d20",
+      "DisplayName": "3_25_ParallelForEach",
+      "ColorIndex": 14
+    },
+    "3936377d-a2eb-404b-8bb1-bbb1eb4bda1d": {
+      "ProjectGuid": "3936377d-a2eb-404b-8bb1-bbb1eb4bda1d",
+      "DisplayName": "3_26_RaceCondition",
+      "ColorIndex": 15
+    },
+    "3b33441a-20f1-4b61-8f14-545342654658": {
+      "ProjectGuid": "3b33441a-20f1-4b61-8f14-545342654658",
+      "DisplayName": "3_27_ParallelForApp",
+      "ColorIndex": 0
+    },
+    "51c3c371-4b4d-448b-987e-8d8b3949574b": {
+      "ProjectGuid": "51c3c371-4b4d-448b-987e-8d8b3949574b",
+      "DisplayName": "3_28_ParallelForForEachThreadLocalVariables",
+      "ColorIndex": 1
     }
   },
-  "NextColorIndex": 10
+  "NextColorIndex": 2
 }
