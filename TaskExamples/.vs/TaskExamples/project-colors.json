@@ -95,7 +95,22 @@
       "ProjectGuid": "51c3c371-4b4d-448b-987e-8d8b3949574b",
       "DisplayName": "3_28_ParallelForForEachThreadLocalVariables",
       "ColorIndex": 1
+    },
+    "10ef545b-8bde-41cb-9f70-65a55c597569": {
+      "ProjectGuid": "10ef545b-8bde-41cb-9f70-65a55c597569",
+      "DisplayName": "3_29_ParallelForEachCancellationToken",
+      "ColorIndex": 2
+    },
+    "0061a903-57a9-482e-b2f5-3e3c1ecf174f": {
+      "ProjectGuid": "0061a903-57a9-482e-b2f5-3e3c1ecf174f",
+      "DisplayName": "3_29_ParallelForForEachCancellationTokenApp",
+      "ColorIndex": 3
+    },
+    "35912bc0-446b-4451-bb94-0df997aa25e3": {
+      "ProjectGuid": "35912bc0-446b-4451-bb94-0df997aa25e3",
+      "DisplayName": "4_30_AsParallel",
+      "ColorIndex": 4
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 5
 }
