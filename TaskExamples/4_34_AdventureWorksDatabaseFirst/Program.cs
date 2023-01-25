@@ -17,12 +17,46 @@ namespace _4_34_AdventureWorksDatabaseFirst {
             Console.WriteLine($"ProductId:{p.ProductId} ProductName:{p.Name} ManagedThreadId:{Thread.CurrentThread.ManagedThreadId} log 'a kaydedildi");
         }
 
+        private static bool IsControl(Product p) {
+            try {
+                return p.Name[2] == 'a';
+            }
+            catch(IndexOutOfRangeException iEx) {
+                Console.WriteLine($"Dizin sınırları aşıldı! Ama hata değil.");
+                return false;
+            }
+            catch (Exception ex) {
+                throw;
+            }
+        }
+
         static void Main(string[] args) {
 
             AdventureWorksContext context = new AdventureWorksContext();
-            context.Product.AsParallel().AsOrdered().Where(p => p.ListPrice > 10M).ToList().ForEach(x => {
-                Console.WriteLine($"{x.ProductId}-{x.Name}-{x.ListPrice}");
-            });
+
+            var products = context.Product.Take(100).ToArray();
+
+            products[3].Name = "##";
+
+            products[5].Name = "##";
+
+            var query = products.AsParallel().Where(IsControl);
+
+            try {
+                query.ForAll(x => {
+                    Console.WriteLine($"{x.ProductId} - {x.Name} - TheadId:{Thread.CurrentThread.ManagedThreadId}");
+                });
+            }
+            catch (AggregateException aggEx) {
+                aggEx.InnerExceptions.ToList().ForEach(x => {
+                    if (x is IndexOutOfRangeException) {
+                        Console.WriteLine($"Hata: {x.GetType().Name} -  {x.Message} TheadId:{Thread.CurrentThread.ManagedThreadId}");
+                    }
+                });
+            }
+            catch (Exception ex) {
+                throw;
+            }
         }
     }
 }

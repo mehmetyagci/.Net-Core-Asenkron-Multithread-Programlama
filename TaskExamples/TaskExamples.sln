@@ -43,9 +43,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3_29_ParallelForForEachCanc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4_30_AsParallel", "4_30_AsParallell\4_30_AsParallel.csproj", "{35912BC0-446B-4451-BB94-0DF997AA25E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_31_ForAll", "4_31_ForAll\4_31_ForAll.csproj", "{6C7C44E8-0CF8-43C0-818A-520D7C253186}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4_31_ForAll", "4_31_ForAll\4_31_ForAll.csproj", "{6C7C44E8-0CF8-43C0-818A-520D7C253186}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_34_AdventureWorksDatabaseFirst", "4_34_AdventureWorksDatabaseFirst\4_34_AdventureWorksDatabaseFirst.csproj", "{9C9E9E91-6D9D-45EB-8065-2AA684C40060}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4_34_AdventureWorksDatabaseFirst", "4_34_AdventureWorksDatabaseFirst\4_34_AdventureWorksDatabaseFirst.csproj", "{9C9E9E91-6D9D-45EB-8065-2AA684C40060}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_40_PLINQCancellationToken", "4_40_PLINQCancellationToken\4_40_PLINQCancellationToken.csproj", "{015C9FBD-F60A-4D9F-BE2B-34B1FFC5D3AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +143,10 @@ Global
 		{9C9E9E91-6D9D-45EB-8065-2AA684C40060}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C9E9E91-6D9D-45EB-8065-2AA684C40060}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C9E9E91-6D9D-45EB-8065-2AA684C40060}.Release|Any CPU.Build.0 = Release|Any CPU
+		{015C9FBD-F60A-4D9F-BE2B-34B1FFC5D3AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{015C9FBD-F60A-4D9F-BE2B-34B1FFC5D3AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{015C9FBD-F60A-4D9F-BE2B-34B1FFC5D3AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{015C9FBD-F60A-4D9F-BE2B-34B1FFC5D3AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
