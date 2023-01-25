@@ -110,7 +110,17 @@
       "ProjectGuid": "35912bc0-446b-4451-bb94-0df997aa25e3",
       "DisplayName": "4_30_AsParallel",
       "ColorIndex": 4
+    },
+    "6c7c44e8-0cf8-43c0-818a-520d7c253186": {
+      "ProjectGuid": "6c7c44e8-0cf8-43c0-818a-520d7c253186",
+      "DisplayName": "4_31_ForAll",
+      "ColorIndex": 5
+    },
+    "9c9e9e91-6d9d-45eb-8065-2aa684c40060": {
+      "ProjectGuid": "9c9e9e91-6d9d-45eb-8065-2aa684c40060",
+      "DisplayName": "4_34_AdventureWorksDatabaseFirst",
+      "ColorIndex": 6
     }
   },
-  "NextColorIndex": 5
+  "NextColorIndex": 7
 }
