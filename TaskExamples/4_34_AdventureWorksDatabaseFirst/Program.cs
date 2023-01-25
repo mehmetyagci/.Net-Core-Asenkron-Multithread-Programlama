@@ -20,8 +20,8 @@ namespace _4_34_AdventureWorksDatabaseFirst {
         static void Main(string[] args) {
 
             AdventureWorksContext context = new AdventureWorksContext();
-            context.Product.AsParallel().ForAll(p => {
-                WriteLog(p);
+            context.Product.AsParallel().AsOrdered().Where(p => p.ListPrice > 10M).ToList().ForEach(x => {
+                Console.WriteLine($"{x.ProductId}-{x.Name}-{x.ListPrice}");
             });
         }
     }
