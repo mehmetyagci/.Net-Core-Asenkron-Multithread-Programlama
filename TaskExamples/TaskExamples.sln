@@ -49,6 +49,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4_34_AdventureWorksDatabase
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_40_PLINQCancellationToken", "4_40_PLINQCancellationToken\4_40_PLINQCancellationToken.csproj", "{015C9FBD-F60A-4D9F-BE2B-34B1FFC5D3AA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelProgramming", "..\..\LearnParallelProgrammingwithC#and.NET\ParallelProgramming\ParallelProgramming.csproj", "{98037085-09EE-45B4-80B3-E8D06614E300}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +149,10 @@ Global
 		{015C9FBD-F60A-4D9F-BE2B-34B1FFC5D3AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{015C9FBD-F60A-4D9F-BE2B-34B1FFC5D3AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{015C9FBD-F60A-4D9F-BE2B-34B1FFC5D3AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98037085-09EE-45B4-80B3-E8D06614E300}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98037085-09EE-45B4-80B3-E8D06614E300}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98037085-09EE-45B4-80B3-E8D06614E300}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98037085-09EE-45B4-80B3-E8D06614E300}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

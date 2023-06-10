@@ -120,7 +120,17 @@
       "ProjectGuid": "9c9e9e91-6d9d-45eb-8065-2aa684c40060",
       "DisplayName": "4_34_AdventureWorksDatabaseFirst",
       "ColorIndex": 6
+    },
+    "015c9fbd-f60a-4d9f-be2b-34b1ffc5d3aa": {
+      "ProjectGuid": "015c9fbd-f60a-4d9f-be2b-34b1ffc5d3aa",
+      "DisplayName": "4_40_PLINQCancellationToken",
+      "ColorIndex": 7
+    },
+    "98037085-09ee-45b4-80b3-e8d06614e300": {
+      "ProjectGuid": "98037085-09ee-45b4-80b3-e8d06614e300",
+      "DisplayName": "ParallelProgramming",
+      "ColorIndex": 8
     }
   },
-  "NextColorIndex": 7
+  "NextColorIndex": 9
 }
